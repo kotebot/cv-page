@@ -3,60 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Стас - Game Developer & Plugin Creator">
-    <title>Стас | Game Developer & Plugin Creator</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Стас - Unity Developer & Game Creator">
+    <title>Stanislav Ostryzhnyi | Unity Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 24px;
+            color: #888;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 40px;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .project-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .project-card h3 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            background-color: #ff6b6b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #ff4b4b;
+        }
+
+        footer {
+            padding: 20px 0;
+            text-align: center;
+            background-color: #1e1e1e;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .social-links a:hover {
+            color: #ff6b6b;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Стас</h1>
-            <p>Game Developer & Plugin Creator</p>
+            <h1>Stanislav Ostryzhnyi</h1>
+            <p>Unity Developer & Game Creator</p>
         </div>
     </header>
-
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Short description of the project.</p>
-                <a href="#" class="button">View on Asset Store</a>
-            </div>
-            <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Short description of the project.</p>
-                <a href="#" class="button">View on Asset Store</a>
-            </div>
-        </div>
-    </section>
 
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
             <p>
-                I'm Стас, an experienced game developer specializing in Unity plugins. I create solutions to enhance the development process for games, focusing on simplicity and efficiency.
+                Hi, I'm Stanislav Ostryzhnyi, a Unity Developer with over five years of experience in game development.
+                My journey in programming began in primary school, where I dreamed of creating games. Today, I bring
+                those dreams to life by developing engaging and innovative projects.
+            </p>
+            <p>
+                I'm calm, ambitious, diligent, and love working on challenging tasks. With my extensive knowledge in Unity,
+                C#, OOP, and various programming patterns, I focus on building high-quality games and plugins that improve
+                the development process.
             </p>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="skills">
         <div class="container">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <h2>Skills</h2>
+            <ul>
+                <li>Unity, C#, OOP, Patterns (SOLID, DRY, KISS)</li>
+                <li>Zenject, StrangIoC</li>
+                <li>Plugins: UniRx, DoTween, Newtonsoft</li>
+                <li>Ads: Applovin, IronSource</li>
+                <li>Tools: Odin Inspector, UnityEditor</li>
+                <li>AR: Vuforia, Maxst AR</li>
+                <li>Backend: Firebase, Custom API</li>
+                <li>Analytics: GameAnalytics, Amplitude</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Ukrlogika</h3>
+                <p>Children's educational game to speed up scoring skills.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.Ukrlogika.UkrlogikaAR" class="button">View on Google Play</a>
+            </div>
+            <div class="project-card">
+                <h3>Chess Champion & Chess Adventure</h3>
+                <p>Chess games for kids developed in collaboration with designers and artists.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.chess.champ" class="button">View on Google Play</a>
+            </div>
+            <div class="project-card">
+                <h3>ISS Idle Game</h3>
+                <p>Idle game about the international space station, featuring custom mechanics and API integration.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.gpk.iss" class="button">View on Google Play</a>
+            </div>
+            <div class="project-card">
+                <h3>Renovation Idle</h3>
+                <p>Casual idle game with unique renovation mechanics.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.pnm.renovation" class="button">View on Google Play</a>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>© 2024 Стас. All rights reserved.</p>
+            <p>© 2024 Stanislav Ostryzhnyi. All rights reserved.</p>
             <div class="social-links">
                 <a href="#">GitHub</a>
                 <a href="#">LinkedIn</a>
