@@ -136,10 +136,17 @@
             }
         }
 
-        footer {
-            padding: 20px 0;
-            text-align: center;
+        .contact-section {
             background-color: #1e1e1e;
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
         }
 
         .contact-info {
@@ -148,7 +155,23 @@
 
         .contact-info p {
             margin: 5px 0;
-            font-size: 16px;
+            font-size: 18px;
+        }
+
+        .contact-info a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #ff6b6b;
+        }
+
+        footer {
+            padding: 20px 0;
+            text-align: center;
+            background-color: #1e1e1e;
         }
 
         .social-links a {
@@ -231,13 +254,19 @@
         </div>
     </section>
 
-    <footer>
+    <section class="contact-section">
         <div class="container">
+            <h2>Contact Me</h2>
             <div class="contact-info">
                 <p>Email: <a href="mailto:ostryzhnyi.s@gmail.com">ostryzhnyi.s@gmail.com</a></p>
                 <p>Telegram: <a href="https://t.me/kotebot1">@kotebot1</a></p>
                 <p>Phone: <a href="tel:+380507611011">+380 50 761 1011</a></p>
             </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
             <p>© 2024 Ostryzhnyi. All rights reserved.</p>
             <div class="social-links">
                 <a href="https://github.com/kotebot">GitHub</a>
